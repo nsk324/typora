@@ -8,7 +8,7 @@ http://info.cern.ch/ 최초의 웹
 
 
 
-## 1. 냐항
+## 1. 정의
 
 ### 1) 서버
 
@@ -20,7 +20,7 @@ http://info.cern.ch/ 최초의 웹
 
 ### 2) 요청의 종류
 
-1. 줘(get) 
+1. 주기 (get) 
 
    :주소창에 쓰는 모든 요청의 방식
 
@@ -67,13 +67,13 @@ http://info.cern.ch/ 최초의 웹
 
 
 
-Static web 
+### Static web 
 
 정해진 페이지만 제공할 수 있습니다.
 
 
 
-Dynamic Web
+### Dynamic Web
 
 Flask할 때, variable routing 될 떄,,. (뭔지 모르겠음)\
 
@@ -83,11 +83,9 @@ Flask할 때, variable routing 될 떄,,. (뭔지 모르겠음)\
 
 우리는 왜 동적 웹을 쓰는가? 
 
-ex) https://hphk/lectures/1 만약 강의가 하나가 있으면 정적 하면 되지만, 
+ex) https://hphk/lectures/1 만약 강의가 하나가 있으면 정적웹을 사용하면 되지만, 
 
 강의가 만 개 이상이 되버리면 하나하나 지정해줘야 하는 번거로움이 생기게 됩니다.
-
-
 
 모든 웹 서비스에서, 서버 컴퓨터에 달라고(get)하는 법? 
 
@@ -97,13 +95,14 @@ ex) https://hphk/lectures/1 만약 강의가 하나가 있으면 정적 하면 �
 
  these days 
 
-URI(identifi cator, 식별자) > URL(locator, 자원이 있는 위치) 요즘은 URI를 사용합니다~ 트렌드쓰~
+URI(identifi cator, 식별자) > URL(locator, 자원이 있는 위치) 요즘은 URI를 사용합니다~ 트렌드~
 
 
 
-WEB Page
+#### WEB Page
 
-W3c : 웹 표준을 정하는 곳입니다. world wide web consortium css/ html/js 할수잇는데 우니느 js 빼고 두개 배운다.~
+W3c : 웹 표준을 정하는 곳입니다. world wide web consortium 
+css/ html/js 할수잇는데 우리는js 빼고 두개 배운다.~
 
 
 
@@ -134,6 +133,7 @@ ex) 닌 제목 니는 본문 니는 약간 중요쓰 너는  부제목쓰
 ## Cascading Style Sheet
 
 - html 에 살을 붙여놓음
+- 디자인
 
 
 
@@ -154,17 +154,20 @@ HTML 표준
 
 - head, body
 
-head  : 브라우저에 나타나지 않음 브라우저 텝에 나타남
+### head
+- 브라우저에 나타나지 않음 브라우저 텝에 나타남
 
-body : 브라우저 화면에 나타나는 정보, 실제 내용에 해당
-
-
-
-^디버깅이 안되있기 때문에 조심히 하세욤^
+### body
+- 브라우저 화면에 나타나는 정보, 실제 내용에 해당
 
 
 
-메타정보란 ? 정보의 정보
+^에러메세지가 안나오기 때문에 조심히 하세욤^
+
+
+
+####메타정보란 ?
+정보의 정보
 
 ## 1. 간단한 html 문서 만들어 보기
 
@@ -224,19 +227,12 @@ $ touch 01_intro.html
 
    결과 : ![1564370213316](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1564370213316.png)
 
-### 1) 냐항
-
-## 2. Tag와  DOM TREE
 
 ### 1) 주석
 
 `` <!-- 주석내용 -->``
 
 ### 2) 요소
-
-- 태그
-
-- 내용
 
   ``<h1> 요소 </h1> ``
 
@@ -250,7 +246,7 @@ $ touch 01_intro.html
 
 ``<img  src="url"/>
 
-닫는테그 없음, 메타태그/ 인풋
+닫는테그 없음, 메타태그 / 인풋
 
 
 
@@ -261,6 +257,7 @@ $ touch 01_intro.html
   `` <a href='google.com'/>``
 
   속성명 : href 속성값 : google.com
+
 
   id, class,style은 태그와 상관없이 모두 사용 가능
 
@@ -318,10 +315,8 @@ $ touch 01_intro.html
 
 ## w
 
-crom e 확장프로그램 (web developer)  다운
-
+crome 확장프로그램 (web developer)  다운
 information > view document ourline
-
 ![1564377083362](C:\Users\student\AppData\Roaming\Typora\typora-user-images\1564377083362.png)
 
 
@@ -342,13 +337,11 @@ information > view document ourline
 <p>contents </p>
 ````
 
-글자크기 뿐 아니라 역할이 있는거입~
+글자크기 뿐 아니라 역할이 있는것 입니다 
 
 
 
 p 태그  안 본문을 넣는다
-
-
 
 ```
 오류 메세지가 나지 않으니 만약 테그쌍이 맞는지 잘 봅니다.
